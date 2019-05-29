@@ -8,3 +8,5 @@
 ### 大厂链接
 
 [《阿里云前端技术周刊》](https://github.com/aliyunfe/weekly '阿里云前端技术周刊')
+
+[《前端开发人员手册》](https://frontendmasters.com/books/front-end-handbook/2019/)
