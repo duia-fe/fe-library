@@ -7,6 +7,17 @@
 [一个3D引擎](https://github.com/metafizzy/zdog)
 
 [URL处理库](https://github.com/medialize/URI.js)
+[https://juejin.im/post/5cef46226fb9a07eaf2b7516](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
+
+### 国外网站
+
+[https://shoptalkshow.com](https://shoptalkshow.com)
+
+[http://5by5.tv/bigwebshow](http://5by5.tv/bigwebshow)
+
+[https://frontendfront.com/](https://frontendfront.com/)
+
+[https://css-weekly.com/archives/](https://css-weekly.com/archives/)
 
 ### 其他
 
