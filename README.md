@@ -7,7 +7,8 @@
 [一个3D引擎](https://github.com/metafizzy/zdog)
 
 [URL处理库](https://github.com/medialize/URI.js)
-[https://juejin.im/post/5cef46226fb9a07eaf2b7516](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
+
+[中级前端工程师必须要掌握的 28 个 JavaScript 技巧](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 
 ### 国外网站
 
