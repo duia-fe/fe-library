@@ -10,6 +10,8 @@
 
 [中级前端工程师必须要掌握的 28 个 JavaScript 技巧](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 
+[设计模式](https://juejin.im/post/5ceb37a76fb9a07f0870737a)
+
 #### 事件循环
 
 [https://juejin.im/post/5be5a0b96fb9a049d518febc](https://juejin.im/post/5be5a0b96fb9a049d518febc)
