@@ -1,5 +1,10 @@
 # fe-library 前端知识库，博客等
 
+### 编码规范
+
+[别人家的规范拿来借鉴借鉴](https://codeguide.bootcss.com/)
+
+
 ### 前端小知识
 
 [《前端开发人员手册》](https://frontendmasters.com/books/front-end-handbook/2019)
