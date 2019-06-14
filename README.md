@@ -42,6 +42,7 @@
 [Java学习](https://github.com/Snailclimb/JavaGuide)
 
 [live2d-悬浮萌妹纸](https://www.buttr.cn/live2d.html)
+[html2canvas将HTML内容写入Canvas生成图片](http://html2canvas.hertzen.com/)
 
 
 ### 大厂链接
