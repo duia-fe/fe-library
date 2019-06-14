@@ -41,7 +41,7 @@
 
 [Java学习](https://github.com/Snailclimb/JavaGuide)
 
-[live2d-悬浮萌妹纸](http://htmlpreview.github.io/?https://github.com/duia-fe/fe-library/blob/master/plug/live2d.html)
+[live2d-悬浮萌妹纸](https://www.buttr.cn/live2d.html)
 
 
 ### 大厂链接
