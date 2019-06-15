@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>canvas 绘制波浪线</title>
+</head>
+
+<body>
+    <canvas id="wave" width="1920" height="400"></canvas>
+    <script>
+        var canvas = document.getElementById('wave');
+        var ctx = canvas.getContext('2d');
+
+        // 波浪在canvas中的高度
+        var nowRange = 80;
+
+        //画布属性
+        var mW = canvas.width;
+        var mH = canvas.height;
+        var lineWidth = 1;
+
+        //Sin 曲线属性
+        var sX = 0;
+        var axisLength = mW; //轴长
+        var waveWidth = 0.025;   //波浪宽度,数越小越宽    
+        var waveHeight = 6; //波浪高度,数越大越高
+        var speed1 = 0.09; //波浪速度，数越大速度越快
+        var speed2 = 0.2; //波浪速度，数越大速度越快
+        var xOffset1 = 0; //波浪x偏移量
+        var xOffset2 = 10; //波浪x偏移量
+        ctx.lineWidth = lineWidth;
+
+
+        //画sin 曲线函数
+        var drawSin = function (xOffset, color, waveHeight) {
+            ctx.save();
+            var points = [];  //用于存放绘制Sin曲线的点
+            ctx.beginPath();
+            //在整个轴长上取点
+            for (var x = sX; x < sX + axisLength; x += 20 / axisLength) {
+                //此处坐标(x,y)的取点，依靠公式 “振幅高*sin(x*振幅宽 + 振幅偏移量)”
+                var y = Math.sin((-sX - x) * waveWidth + xOffset) * 0.8 + 0.1;
+                var dY = mH * (1 - nowRange / 100);
+                points.push([x, dY + y * waveHeight]);
+                ctx.lineTo(x, dY + y * waveHeight);
+            }
+
+            //封闭路径
+            ctx.lineTo(axisLength, mH);
+            ctx.lineTo(sX, mH);
+            ctx.lineTo(points[0][0], points[0][1]);
+            ctx.fillStyle = color;
+            ctx.fill();
+            ctx.restore();
+        };
+
+        var render = function () {
+            ctx.clearRect(0, 0, mW, mH);
+
+            drawSin(xOffset1 + Math.PI * 0.7, 'rgba(28, 134, 209, 0.5)', 18);
+            drawSin(xOffset2, 'rgba(28, 134, 209, 0.9)', 18);
+
+            xOffset1 += speed1;
+            xOffset2 += speed2;
+            window.requestAnimationFrame(render);
+        }
+        render();
+    </script>
+</body>
+
+</html>
