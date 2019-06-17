@@ -26,13 +26,13 @@
 
 ### 国外网站
 
-[https://shoptalkshow.com](https://shoptalkshow.com)
+[ShopTalk](https://shoptalkshow.com)
 
-[http://5by5.tv/bigwebshow](http://5by5.tv/bigwebshow)
+[5by5 The Big Web Show](http://5by5.tv/bigwebshow)
 
-[https://frontendfront.com/](https://frontendfront.com/)
+[Front-End Front](https://frontendfront.com/)
 
-[https://css-weekly.com/archives/](https://css-weekly.com/archives/)
+[CSS Weekly](https://css-weekly.com/archives/)
 
 ### 其他
 
