@@ -18,11 +18,11 @@
 
 #### 事件循环
 
-[https://juejin.im/post/5be5a0b96fb9a049d518febc](https://juejin.im/post/5be5a0b96fb9a049d518febc)
+[总结：JavaScript异步、事件循环与消息队列、微任务与宏任务](https://juejin.im/post/5be5a0b96fb9a049d518febc)
 
-[https://juejin.im/post/5b24b116e51d4558a65fdb70](https://juejin.im/post/5b24b116e51d4558a65fdb70)
+[Js 的事件循环(Event Loop)机制以及实例讲解](https://juejin.im/post/5b24b116e51d4558a65fdb70)
 
-[https://juejin.im/post/5a5d64fbf265da3e243b831f](https://juejin.im/post/5a5d64fbf265da3e243b831f)
+[JavaScript 运行原理解析](https://juejin.im/post/5a5d64fbf265da3e243b831f)
 
 ### 国外网站
 
