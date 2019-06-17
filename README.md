@@ -2,7 +2,7 @@
 
 ### 编码规范
 
-[别人家的规范拿来借鉴借鉴](https://codeguide.bootcss.com/)
+[编写一致、灵活和可持续的 HTML 和 CSS 代码的规范。- 别人家的规范拿来借鉴借鉴](https://codeguide.bootcss.com/)
 
 ### 前端小知识
 
@@ -14,7 +14,7 @@
 
 [中级前端工程师必须要掌握的 28 个 JavaScript 技巧](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 
-[设计模式](https://juejin.im/post/5ceb37a76fb9a07f0870737a)
+[设计模式清单](https://juejin.im/post/5ceb37a76fb9a07f0870737a)
 
 #### 事件循环
 
@@ -36,7 +36,7 @@
 
 ### 其他
 
-[Java 学习](https://github.com/Snailclimb/JavaGuide)
+[【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识](https://github.com/Snailclimb/JavaGuide)
 
 [live2d-悬浮萌妹纸](https://www.buttr.cn/live2d.html)
 
