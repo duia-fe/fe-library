@@ -22,7 +22,7 @@
 
 [设计模式清单](https://juejin.im/post/5ceb37a76fb9a07f0870737a)
 
-##### 事件循环
+##### 3.1事件循环
 
 [总结：JavaScript异步、事件循环与消息队列、微任务与宏任务](https://juejin.im/post/5be5a0b96fb9a049d518febc)
 
