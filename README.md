@@ -8,8 +8,6 @@
 
 [《前端开发人员手册》](https://frontendmasters.com/books/front-end-handbook/2019)
 
-[面包屑导航](https://github.com/icd2k3/react-router-breadcrumbs-hoc)
-
 #### 1.HTML
 #### 2.CSS
 [在原生CSS中使用变量](https://juejin.im/post/5a958ea66fb9a06346202540)
@@ -31,6 +29,10 @@
 [Js 的事件循环(Event Loop)机制以及实例讲解](https://juejin.im/post/5b24b116e51d4558a65fdb70)
 
 [JavaScript 运行原理解析](https://juejin.im/post/5a5d64fbf265da3e243b831f)
+
+### React
+
+[面包屑导航](https://github.com/icd2k3/react-router-breadcrumbs-hoc)
 
 ### 国外网站
 
