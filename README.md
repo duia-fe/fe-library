@@ -12,6 +12,8 @@
 #### 2.CSS
 [在原生CSS中使用变量](https://juejin.im/post/5a958ea66fb9a06346202540)
 
+[28个CSS使用的小技巧](https://mp.weixin.qq.com/s/jnHIyvZXjvOkJNehjaNl6Q)
+
 #### 3.avaScript
 
 [一个 3D 引擎](https://github.com/metafizzy/zdog)
