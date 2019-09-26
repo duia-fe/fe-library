@@ -38,6 +38,14 @@
 
 [面包屑导航](https://github.com/icd2k3/react-router-breadcrumbs-hoc)
 
+### 微前端
+
+[Thinking in Microfrontend (《微前端的那些事儿》)](https://microfrontends.cn)
+[精致化的微前端开发之旅](https://zhuanlan.zhihu.com/p/46284079)
+[用微前端的方式搭建类单页应用](https://tech.meituan.com/2018/09/06/fe-tiny-spa.html)
+[微前端如何落地？](https://mp.weixin.qq.com/s/I2Y4N0hwugNV2d6Zk6AdMg)
+[Serverless For Frontend 前世今生](https://www.yuque.com/egg/nodejs/sff-history)
+
 ### 国外网站
 
 [ShopTalk](https://shoptalkshow.com)
