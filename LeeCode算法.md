@@ -15,9 +15,8 @@ LeeCode里面的算法题，并附上自己的答案
 所以返回 [0, 1]
 
 ```
-```
 <details>
-<summary><mark><font color=darkred>我的答案</font></mark></summary>
+<summary><mark>我的答案</mark></summary>
 <pre><code>
   var twoSum = function(nums, target) {
     for(var i=0;i<nums.length;i++) {
@@ -30,4 +29,3 @@ LeeCode里面的算法题，并附上自己的答案
   };
 </code></pre>
 </details>
-```
