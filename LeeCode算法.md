@@ -83,32 +83,32 @@ var twoSum = function(nums, target) {
  */
 
 let addTwoNumbers = function(l1, l2) {
-    let result = null;
-    let cache = null;
-    let dep = 1;
-    let extra = 0;
-    while(l1 || l2) {
-        let sum = (l1?l1.val:0)+(l2?l2.val:0)+extra;
-        let tempNode = new ListNode(sum%10);
-        if(dep===1) {
-           result =  tempNode;
-        } else {
-            cache.next = tempNode;
-        }
-        cache = tempNode;
-        dep = dep+1;
-        l1 = l1 && l1.next;
-        l2 = l2 && l2.next;
-        if(sum>=10) {
-            extra = 1;
-        } else {
-            extra = 0;
-        }
-        if(extra && !l1&&!l2) {
-            l1 = new ListNode(0);
-        }
+  let result = null;
+  let cache = null;
+  let dep = 1;
+  let extra = 0;
+  while (l1 || l2) {
+    let sum = (l1 ? l1.val : 0) + (l2 ? l2.val : 0) + extra;
+    let tempNode = new ListNode(sum % 10);
+    if (dep === 1) {
+      result = tempNode;
+    } else {
+      cache.next = tempNode;
     }
-    return result;
+    cache = tempNode;
+    dep = dep + 1;
+    l1 = l1 && l1.next;
+    l2 = l2 && l2.next;
+    if (sum >= 10) {
+      extra = 1;
+    } else {
+      extra = 0;
+    }
+    if (extra && !l1 && !l2) {
+      l1 = new ListNode(0);
+    }
+  }
+  return result;
 };
 ```
 
@@ -170,6 +170,182 @@ var addTwoNumbers = function(l1, l2, add = 0) {
   }
 
   return l3;
+};
+```
+
+</details>
+
+### 3. 无重复字符的最长子串
+
+给定一个字符串，请你找出其中不含有重复字符的**最长子串**的长度。
+
+**示例 1:**
+
+```
+输入: "abcabcbb"
+输出: 3
+解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+```
+
+**示例 2:**
+
+```
+输入: "bbbbb"
+输出: 1
+解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+```
+
+**示例 3:**
+
+```
+输入: "pwwkew"
+输出: 3
+解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
+     请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+```
+
+<details>
+<summary><mark>别人的答案</mark></summary>
+
+```javascript
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function(s) {
+  var arr = [],
+    res = 0;
+  for (let i = 0; i < s.length; i++) {
+    let item = s[i],
+      index = arr.indexOf(item);
+    if (~index) {
+      res = arr.length > res ? arr.length : res;
+      arr.length = 0;
+      s = s.substr(index + 1);
+      i = -1;
+    } else {
+      arr.push(item);
+      if (i === s.length - 1) {
+        res = arr.length > res ? arr.length : res;
+      }
+    }
+    if (res >= s.length) break;
+  }
+  return res;
+};
+```
+
+```javascript
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function(s) {
+  let num = 0,
+    j = 0;
+  const map = new Map();
+  for (let i = 0; i < s.length; i++) {
+    const char = s[i];
+    if (map.get(char) !== undefined) {
+      j = Math.max(map.get(char) + 1, j);
+    }
+    num = Math.max(num, i - j + 1);
+    map.set(char, i);
+  }
+  return num;
+};
+```
+
+</details>
+
+### 4. 寻找两个有序数组的中位数
+
+给定两个大小为 m 和 n 的有序数组  `nums1` 和  `nums2`。
+
+请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为  O(log(m + n))。
+
+你可以假设  `nums1`  和  `nums2`  不会同时为空。
+
+**示例 1:**
+
+nums1 = [1, 3]
+nums2 = [2]
+
+则中位数是 2.0
+
+**示例 2:**
+
+nums1 = [1, 2]
+nums2 = [3, 4]
+
+则中位数是 (2 + 3)/2 = 2.5
+
+<details>
+<summary><mark>我的答案</mark></summary>
+
+```javascript
+/**
+ * @param {number[]} nums1
+ * @param {number[]} nums2
+ * @return {number}
+ */
+var findMedianSortedArrays = function(nums1, nums2) {
+  let nums = [...nums1, ...nums2].sort((a, b) => a - b);
+  let len = nums.length;
+  return (nums[Math.floor(len / 2)] + nums[Math.ceil(len / 2 - 1)]) / 2;
+};
+```
+
+</details>
+
+<details>
+<summary><mark>别人的答案</mark></summary>
+
+```javascript
+/**
+ * @param {number[]} nums1
+ * @param {number[]} nums2
+ * @return {number}
+ */
+var findMedianSortedArrays = function(nums1, nums2) {
+  let len1 = nums1.length;
+  let len2 = nums2.length;
+  if (len2 < len1) {
+    return findMedianSortedArrays(nums2, nums1);
+  }
+  let i, j;
+  let iMin = 0,
+    iMax = len1;
+
+  while (iMin <= iMax) {
+    i = Math.floor((iMin + iMax) / 2);
+    j = Math.floor((len1 + len2 + 1) / 2 - i);
+    if (nums1[i - 1] > nums2[j] && i != 0 && j != len2) {
+      iMax = i - 1;
+    } else if (nums2[j - 1] > nums1[i] && i != len1 && j != 0) {
+      iMin = i + 1;
+    } else {
+      let lMax, rMin;
+      if (i == 0) {
+        lMax = nums2[j - 1];
+      } else if (j == 0) {
+        lMax = nums1[i - 1];
+      } else {
+        lMax = Math.max(nums1[i - 1], nums2[j - 1]);
+      }
+      if ((len1 + len2) % 2 != 0) {
+        return lMax;
+      }
+      if (i == len1) {
+        rMin = nums2[j];
+      } else if (j == len2) {
+        rMin = nums1[i];
+      } else {
+        rMin = Math.min(nums1[i], nums2[j]);
+      }
+      return (lMax + rMin) / 2;
+    }
+  }
 };
 ```
 
