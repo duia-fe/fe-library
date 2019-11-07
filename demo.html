@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 750px;
+      }
+      .list {
+        padding: 20px;
+      }
+      .item {
+        margin-top: 120px;
+        padding: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        box-sizing: content-box;
+        border-radius: 5px;
+      }
+
+      .item .item-pic {
+        position: relative;
+        margin-top: -100px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .item .pic-group {
+        overflow: hidden;
+      }
+      .item .pic-group img {
+        display: block;
+        float: left;
+        width: 40%;
+      }
+      .item .pic-group img:first-child {
+        width: 60%;
+      }
+
+      .item .item-pic-info {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .item .item-info {
+        margin: -10px;
+      }
+      .item .item-info .item-info-detail {
+        padding: 10px;
+      }
+      .item .item-info-sub {
+        padding: 10px;
+        border-top: 1px solid #ededed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="list">
+      <div class="item">
+        <div class="item-pic">
+          <div class="pic-group">
+            <img src="http://via.placeholder.com/450x300" alt="" />
+            <img src="http://via.placeholder.com/300x150" alt="" />
+            <img src="http://via.placeholder.com/300x150" alt="" />
+          </div>
+          <div class="item-pic-info">名称</div>
+        </div>
+        <div class="item-info">
+          <div class="item-info-detail">
+            <div class="title">xxx比亚地址</div>
+            <div class="des">这里有很多简介</div>
+          </div>
+          <div class="item-info-sub">葡萄牙地址 xxx元</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-pic">
+          <div class="pic-group">
+            <img src="http://via.placeholder.com/450x300" alt="" />
+            <img src="http://via.placeholder.com/300x150" alt="" />
+            <img src="http://via.placeholder.com/300x150" alt="" />
+          </div>
+          <div class="item-pic-info">名称</div>
+        </div>
+        <div class="item-info">
+          <div class="item-info-detail">
+            <div class="title">xxx比亚地址</div>
+            <div class="des">这里有很多简介</div>
+          </div>
+          <div class="item-info-sub">葡萄牙地址 xxx元</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
