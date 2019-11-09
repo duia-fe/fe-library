@@ -16,6 +16,8 @@
 
 [灵活运用CSS开发技巧(66个实用技巧，值得收藏)](https://juejin.im/post/5d4d0ec651882549594e7293)
 
+[剖析一些经典的CSS布局问题](https://juejin.im/post/5da282015188257d2a1c9e1d)
+
 #### 3.avaScript
 
 [一个 3D 引擎](https://github.com/metafizzy/zdog)
@@ -25,6 +27,10 @@
 [中级前端工程师必须要掌握的 28 个 JavaScript 技巧](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 
 [设计模式清单](https://juejin.im/post/5ceb37a76fb9a07f0870737a)
+
+[原生JS灵魂之问(上), 请问你能接得住几个？](https://juejin.im/post/5dac5d82e51d45249850cd20)
+
+[原生JS灵魂之问(中)，检验自己是否真的熟悉JavaScript？](https://juejin.im/post/5dbebbfa51882524c507fddb)
 
 ##### 3.1事件循环
 
