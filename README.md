@@ -32,6 +32,10 @@
 
 [原生JS灵魂之问(中)，检验自己是否真的熟悉JavaScript？](https://juejin.im/post/5dbebbfa51882524c507fddb)
 
+[JS 的5个不良编码习惯，现在就改掉吧](https://mp.weixin.qq.com/s/zB55QjQGME9mgx0vYHeyRw)
+
+[11 种在大多数教程中找不到的JavaScript技巧](https://mp.weixin.qq.com/s/uRaNV07ZV1fdpGC8KZ4AOg)
+
 ##### 3.1事件循环
 
 [总结：JavaScript异步、事件循环与消息队列、微任务与宏任务](https://juejin.im/post/5be5a0b96fb9a049d518febc)
