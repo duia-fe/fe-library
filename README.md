@@ -18,7 +18,7 @@
 
 [剖析一些经典的CSS布局问题](https://juejin.im/post/5da282015188257d2a1c9e1d)
 
-#### 3.avaScript
+#### 3.JavaScript
 
 [一个 3D 引擎](https://github.com/metafizzy/zdog)
 
