@@ -80,6 +80,8 @@
 
 [canvas 绘制动画海浪](https://www.buttr.cn/canvas-wave.html)
 
+[H5与Native交互之JSBridge技术](https://segmentfault.com/a/1190000010356403)
+
 ### 大厂链接
 
 [《阿里云前端技术周刊》](https://github.com/aliyunfe/weekly '阿里云前端技术周刊')
